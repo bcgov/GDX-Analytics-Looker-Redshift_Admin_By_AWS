@@ -74,7 +74,7 @@ Please Contact the GDX Service desk for any analytics service help, for inquirie
 
 This Looker Block originates from https://github.com/llooker/blocks_redshift_admin.
 
-The GDX analytics team will be the main contributors to this project currently. They will also maintain the code as well.
+The GDX analytics team will be the main contributors to this project currently. They will maintain the code as well.
 
 ## License
 
