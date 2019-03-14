@@ -73,16 +73,15 @@ Represents an instance of Government of British Columbia’s Snowplow tracking. 
 
 ## Getting Help
 
-Please Contact the GDX Service desk at gdx.servicedesk@gov.bc.ca for any analytics service help, for inquiries about starting a new analytics account for Government please contact The GDX Analytics team.
+For any questions regarding this project, please contact the GDX Analytics Team.
 
 ## Contributors
 
 This Looker Block originates from https://github.com/llooker/blocks_redshift_admin.
 
-The GDX analytics team will be the main contributors to this project currently. They will maintain the code as well.
+The GDX Analytics Team are the main contributors to this project and maintain the code.
 
 ## License
-
 
 Copyright 2015 Province of British Columbia
 
