@@ -1,6 +1,6 @@
 ## Redshift Admin by AWS
 
-This Looker block provides a substitute for the AWS Console, helping users identify how tables are structured and if data flow is normal.
+This Looker Block provides a substitute for the AWS Console, helping users identify how tables are structured and if data flow is normal.
 
 ## Features
 
@@ -68,7 +68,7 @@ Great! Blocks were designed for continuous improvement through the help of the e
 
 ## Getting Help
 
-Please Contact the GDX Service desk for any analytics service help, for inquiries about starting a new analytics account for Government please contact The GDX Analytics team.
+Please Contact the GDX Service desk at gcpe.servicedesk@gov.bc.ca for any analytics service help, for inquiries about starting a new analytics account for Government please contact The GDX Analytics team.
 
 ## Contributors
 
