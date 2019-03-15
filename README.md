@@ -1,6 +1,6 @@
 ## Redshift Admin by AWS
 
-This Looker block provides a substitute for the AWS Console, helping users identify how tables are structured and if data flow is normal.
+This Looker Block provides a substitute for the AWS Console, helping users identify how tables are structured and if data flow is normal.
 
 ## Features
 
@@ -66,28 +66,32 @@ Great! Blocks were designed for continuous improvement through the help of the e
 - "Rows out" according to the query plan are estimates. The are often _highly_ inflated. If anything, this is an indication that you should update table statistics in Redshift so it can generate better query plans.
 - Need to think about metrics for scans (e.g. bytes, rows emitted, and emitted rows to table rows ratio). When a table has dist style='all', the measures are increased by a factor of the number of slices. This is unintuitive since, for example the ratio is then typically >100%, but this may be a good thing.
 
+## Relevant Repositories
+[GDX-Analytics/](https://github.com/bcgov/GDX-Analytics/)
+
+Represents an instance of Government of British Columbia’s Snowplow tracking. This includes pushing custom events to the Snowplow Tracker, and generation of cryptographically signed SSO embed URL pointing to a dashboard.
+
 ## Getting Help
 
-Please Contact the GDX Service desk for any analytics service help, for inquiries about starting a new analytics account for Government please contact The GDX Analytics team.
+For any questions regarding this project, please contact the GDX Analytics Team.
 
 ## Contributors
 
 This Looker Block originates from https://github.com/llooker/blocks_redshift_admin.
 
-The GDX analytics team will be the main contributors to this project currently. They will also maintain the code as well.
+The GDX Analytics Team are the main contributors to this project and maintain the code.
 
 ## License
 
-    Copyright 2015 Province of British Columbia
+Copyright 2015 Province of British Columbia
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+   http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations under the License.
