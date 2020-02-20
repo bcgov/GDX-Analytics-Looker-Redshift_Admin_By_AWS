@@ -3,8 +3,8 @@
 connection: "looker_redshift_admin"
 case_sensitive: no
 
-include: "redshift_*.dashboard"
-include: "redshift_*.view"
+include: "/Dashboards/redshift_*.dashboard"
+include: "/Views/redshift_*.view"
 
 explore: redshift_data_loads {
   hidden: yes
