@@ -1,4 +1,6 @@
 ## Redshift Admin by AWS
+[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](<Redirect-URL>)
+---
 
 This Looker Block provides a substitute for the AWS Console, helping users identify how tables are structured and if data flow is normal.
 
